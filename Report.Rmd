@@ -1,0 +1,189 @@
+---
+title: "Portfolio Tables Report"
+author: "CASE - Blaine Harper"
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("Portfolio.R")
+```
+
+# IDS Tables {.tabset .tabset-fade .tabset-pills}
+
+Interdisciplinary Studies
+
+## Faculty County by Major
+
+```{r IDS.FCbM}
+IDS_Kables$Faculty.Count.by.Major
+```
+
+## Inter-rater Reliability
+
+```{r IDS.IrR}
+IDS_Kables$Inter.rater.Reliability
+```
+
+## Yearly Scores by Prefix
+
+```{r IDS.YSbB}
+IDS_Kables$Yearly.Scores.by.Prefix
+```
+
+## Mean Score by Major
+
+```{r IDS.MSbM}
+IDS_Kables$Mean.Scores.by.Major
+```
+
+# CTW Tables {.tabset .tabset-fade .tabset-pills}
+
+Critical Thinking and Writing
+
+## First Major 
+```{r CTW.First.Major}
+CTW_Kables$First.Major
+```
+
+
+## Scores by Final Major
+
+```{r CTW.Final.Major}
+CTW_Kables$Final.Major
+```
+
+## Scores by Course Prefix
+
+```{r CTW.Final.Prefix}
+CTW_Kables$Final.Prefix
+```
+
+## Inter-rater Reliability
+
+```{r CTW.Inter.rater.Reliability}
+CTW_Kables$Inter.rater.Reliability
+```
+
+## Faculty Score
+
+```{r CTW.Faculty.Score}
+CTW_Kables$Faculty.Score
+```
+
+## Course Prefix Score
+```{r CTW.Course.Prefix.Score}
+CTW_Kables$Course.Prefix.Score
+```
+
+# LTT {.tabset .tabset-fade .tabset-pills}
+Letter to Truman
+
+## Hours Spent
+```{r LTT.Hours.Spent}
+LTT_Kables$Hours.Spent
+```
+
+## Attitude towards Portfolio
+```{r LTT.Attitude.Portfolio}
+LTT_Kables$Attitude.Portfolio
+```
+
+## Attitude towards Education
+```{r LTT.Attitude.Education}
+LTT_Kables$Attitude.Education
+```
+
+## Self Reflection
+```{r LTT.Self.Reflection}
+LTT_Kables$Self.Reflection
+```
+
+# MOST {.tabset .tabset-fade .tabset-pills}
+
+## Reasons
+```{r MOST.Reasons}
+MOST_Kables$Reasons
+```
+
+## Scores by First Major
+```{r MOST.Scores.by.first.major}
+MOST_Kables$Scores.by.first.major
+```
+
+# SELF {.tabset .tabset-fade .tabset-pills}
+
+## Rationales
+```{r SELF.Rationales}
+SELF_Kables$Rationales
+```
+
+## SR, G, C Rationales
+```{r SELF.SRGC_Rationales}
+SELF_Kables$SRGC_Rationales
+```
+
+## A & S Rationales
+```{r SELF.AS_Rationales}
+SELF_Kables$AS_Rationales
+```
+
+## Relationship Rationales
+```{r SELF.Rel_Rationales}
+SELF_Kables$Rel_Rationales
+```
+
+# TEQ {.tabset .tabset-fade .tabset-pills}
+
+## Overall Ed Transformative
+```{r TEQ.Overall.Ed.Transformative}
+TEQ_Kables$Overall.Ed.Transformative
+```
+
+## Various Activities
+```{r TEQ.Various.Activities}
+TEQ_Kables$Various.Activities
+```
+
+## Reporting Activity
+```{r TEQ.Reporting.Activity}
+TEQ_Kables$Reporting.Activity
+```
+
+## Activities by Gender
+```{r TEQ.Activities.by.Gender}
+TEQ_Kables$Activities.by.Gender
+```
+
+## Activities by Major
+```{r TEQ.Activities.by.Major}
+TEQ_Kables$Activities.by.Major
+```
+
+## Activities by Major - Percent Only
+```{r TEQ.Activities.by.Major.percentOnly}
+TEQ_Kables$Activities.by.Major.percentOnly
+```
+
+## Activities by Major Historically
+```{r TEQ.Activity.Major.Over.Time}
+TEQ_Kables$Activity.Major.Over.Time
+```
+
+## Majors by Gender
+```{r TEQ.Majors.by.Gender}
+TEQ_Kables$Majors.by.Gender
+```
+
+## Overall
+```{r TEQ.Overall}
+TEQ_Kables$Overall
+```
+
+## Overall (2015-2019)
+```{r TEQ.Overall.Historical}
+TEQ_Kables$Overall.Historical
+```
+
